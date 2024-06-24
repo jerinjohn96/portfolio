@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: #fff;
+}
+
+
+#nav-links li{
+    list-style: none;
+}
+.navbar{
+    position: fixed;
+}
+.progress{
+    height: 50px;
+}
+#pro1{
+    animation: load1 3s normal forwards;
+}
+#pro2{
+    animation: load2 3s normal forwards;
+}
+#pro3{
+    animation: load3 3s normal forwards;
+}
+#pro4{
+    animation: load4 3s normal forwards;
+}
+#pro5{
+    animation: load5 3s normal forwards;
+}
+#pro6{
+    animation: load6 3s normal forwards;
+}
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50;
+    }
+}
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 25;
+    }
+}
+@keyframes load6{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 25;
+    }
+}
+.card{
+    margin-left: 30px;
+}
+#lap-content{
+    width: 100%;
+    display: flex;
+}
+#lap-content img{
+    width: 100%;
+    z-index: 1;
+}
+#lap-content p{
+    width: 2rem;
+    height: 10rem;
+    position: relative;
+    top: 1.2rem;
+    right: 14rem; 
+}
+/* contact */
+#form-input input::placeholder{
+    color: #ffffff60;
+}
